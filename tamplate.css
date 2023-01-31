@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+nav, nav >div:nth-child(2),nav >div:nth-child{
+    display: flex;
+    flex-flow: row nowrap;   
+}
+nav{
+    justify-content: space-around;
+    background-color: #7a6ad8;
+    border-radius: 0px 0px 25px 25px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    color: white;
+}
+.nav-left{
+    padding-top: 15px;
+}
+.nav-left>a>h1{
+    padding-right: 10px;
+    border-right: 0.5px solid white;
+}
+#search, #search>div:first-child>input,#search>div:nth-child(2),.nav-right>div:first-child{
+    background-color: rgba(255 255 255 0.10);
+}
+#search>diiv:first-child>input{
+    height: 44px;
+    border: none;
+    outline: none;
+    border-radius: 23px 0 0 23px;
+    padding-left: 15px;
+}
+#search>div:nth-child(2)>i{
+    padding-left: 15px;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+}

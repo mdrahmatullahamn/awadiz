@@ -7,18 +7,19 @@
     <title>Document</title>
     <style>
 #amn{
-    border: 1px solid black;
+    border:none;
     width: 99%;
     height: 80px;
+    background-color:aqua;
 }
 .page{
-    border: 1px solid black;
+    border:none;
     width:20% ;
     height: 500px;
     float: left;
 }
 .first{
-    border: 1px solid black;
+    
     width: 79%;
     height: 500px;
     float: left;
@@ -29,20 +30,67 @@
     width: 99%;
     height: 80px;
     margin-top: 500px
+    
 }
+div>h1{
+    color: black;
+    margin-left: 5%;
+    float: left;
 
+    }
+div>ul>li{
+
+    color: red;
+    float: left;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 18px;
+    font-size: large;
+    font-weight: bold;
+
+}
+div>ul>li>:hover{
+    background-color:orangered;
+}
+div>input{
+    margin-top: 18px;
+    margin-left: 7%;
+    border: none;
+
+    
+    
+
+
+
+}
+.first>img{
+    height:500px;
+    width:100% ;
+}
 
   </style>
 </head>
 <body>
-    <div id="amn" ></div>
-    <div class="page"></div>
-    <div class="first">
-        <div style="border: 1px solid black; width: 90%;height: 80px;margin-left: 5%; margin-top: 20px;"></div>
-        <div style="border: 1px solid black;width: 42.5%; height: 350px;margin-left: 5%; margin-top: 10px; float: left;"></div>
-        <div style="border: 1px solid black;width: 42.5%; height: 350px;margin-left:5%; margin-top: 10px; float: left;"></div>
-        
+    <div id="amn" >
+        <h1 id="h1">Food online</h1>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">cart</a></li>
+            <li><a href="#">explore</a></li>
+        </ul>
+        <input type="text" placeholder="enter food name">
+        <button>search</button>
     </div>
-    <div class="second"></div>
+    <div class="page" style="background-color:pink;"> <h1 style="text-shadow: 5px,7px,9px, red;">web desigen <br><span>& web devlopment</span> course</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Architecto neque asperiores <br> non quasi veniam. Dolorem culpa ea, <br> minus error sequi itaque in corrupti <br> saepe repudiandae. Explicabo inventore <br> repudiandae esse rem?</p>
+        <button style="background-color:orangered;border:none"><a href="#">join us</a></button>
+    </div>
+    <div class="first" style="background-color: antiquewhite;">
+        <!-- <div style="border: 1px solid black; width: 90%;height: 80px;margin-left: 5%; margin-top: 20px;"></div>
+        <div style="border: 1px solid black;width: 42.5%; height: 350px;margin-left: 5%; margin-top: 10px; float: left;"></div>
+        <div style="border: 1px solid black;width: 42.5%; height: 350px;margin-left:5%; margin-top: 10px; float: left;"></div> -->
+        <img src="https://cdn.dribbble.com/users/33073/screenshots/14441287/media/5c59e4dc1adb74f16cd135afb6066f21.png?compress=1&resize=400x300" alt="">
+    </div>
 </body>
 </html>
