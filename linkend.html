@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/60679dca1d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linkedin</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: azure;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header-left img{
+            object-fit: contain;
+            height: 40px;
+            margin-left: 10px;
+        }
+        .header{
+            width: 100%;
+            position: sticky;
+            display: flex;
+            background-color: white;
+            top: 0;
+            justify-content: space-evenly;
+            border-bottom: 0.1px solid lightgray;
+            padding: 10px;
+        }
+        .header-left{
+            display: flex;
+        }
+        .header-right{
+            display: flex;
+        }
+        .header-search{
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            height: 22px;
+            color: gray;
+            background-color:white;
+        }
+        .header-search input{
+            border: none;
+            outline: none;
+            background: none;
+        }
+        .header-option{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+            color: gray;
+            cursor: pointer;
+        }
+        .header-option:hover{
+            color: black;
+        }
+        .header-option h3{
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        @media screen and (max-width:400px) {
+            .header{
+                flex-direction: column;
+            }
+            
+        }
+        @media screen and (max-width:400px){
+            .header-left{
+                flex-direction: row;
+            }
+        }
+        @media screen and (max-width:400px){
+            .header-right{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img  src="./linkedin img.avif" alt="">
+            <div class="header-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="header-right">
+          <div class="header-option">
+            <i class="fa-solid fa-house"></i>
+
+            <h3>Home</h3>
+          </div>
+          <div class="header-option">
+            <i class="fa-solid fa-users"></i>
+            <h3>My network</h3>
+        </div>
+          <div class="header-option">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>jobs</h3>
+          </div>
+          <div class="header-option">
+            <i class="fa-solid fa-message"></i>
+            <h3>massege</h3>
+          </div>
+          <div class="header-option">
+            <i class="fa-solid fa-bell"></i>
+            <h3>notification</h3>
+          </div>
+          <div class="header-option">
+            <i class="fa-solid fa-user"></i>
+            <h3>Me</h3>
+          </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>

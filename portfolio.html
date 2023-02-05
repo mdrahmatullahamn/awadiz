@@ -16,6 +16,7 @@
 
         #full-page {
             width: 100%;
+            height: 2000px;
         }
 
         #intro-section {
@@ -40,7 +41,6 @@
         }
 
         #navbar-left h1 {
-            padding: 15px;
             color: rgb(138, 5, 5);
         }
 
@@ -89,7 +89,7 @@
             width: 100%;
             cursor: pointer;
         }
-          
+
         .sst {
             display: flex;
             margin-top: 140px;
@@ -105,12 +105,13 @@
             width: 40%;
             height: 350px;
         }
+
         .amn {
             width: 60px;
             height: 60px;
             background-color: white;
             border-radius: 30px;
-            margin-right: 20px;   
+            margin-right: 20px;
         }
 
         .amn2 {
@@ -127,42 +128,169 @@
             height: 50px;
             margin-bottom: 20px;
         }
-        .r2{
-            background-color:teal;
+
+        .r2 {
+            background-color: teal;
             width: 100px;
             height: 30px;
             border-radius: 15px;
         }
-        .amn2 h4{
+
+        .amn2 h4 {
             padding: 10px;
             font-size: 28px;
         }
-        .r1 h2{
+
+        .r1 h2 {
             padding: 11px;
             color: rgb(103, 243, 103);
         }
-        .r2 h4{
+
+        .r2 h4 {
             padding: 6px;
             color: white;
         }
-       #my-info-right> div{
-        width: 250px;
-        height: 250px;
-        border-radius: 125px;
-        background-color: white;
-        margin-top: 60px;
-        margin-left: 125px;
+
+        #my-info-right>div {
+            width: 250px;
+            height: 250px;
+            border-radius: 125px;
+            background-color: white;
+            margin-top: 60px;
+            margin-left: 125px;
+        }
+
+        .amn img {
+            height: 60px;
+            width: 100%;
+            border-radius: 30px;
+        }
+
+        .v1 img {
+            height: 250px;
+            width: 250;
+            border-radius: 125px;
+        }
+
+        #rule {
+            height: 400px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #rule>div {
+            width: 40%;
+            height: 75%;
+            margin-top: 50px;
+        }
+
+        #rule-left {
+            border-radius: 15px;
+        }
+
+        #rule-left>img {
+            border-radius: 15px;
+            height: 100%;
+            margin: auto;
+            width: 90%;
+
+        }
+
+        .s1 {
+            height: 45%;
+            background-color: #14b78a;
+            border-radius: 10px;
+            display: flex;
+            justify-content: right;
+        }
+
+        .s1>h2 {
+            color: white;
+            font-size: 32px;
+            margin-top: 45px;
+            margin-right: 20px;
+        }
+
+        .v3 {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        .v3>img {
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+        }
+        .v2> p,h1{
+            margin-top: 20px;
+        }
+        #info{
+            height: 400px;
+            width: 100%;
+            background-color: rgb(240, 237, 237);
+            display: flex;
+            justify-content:center;
+        }
+        #info >div{
+            width: 30%;
+            height: 200px;
+            margin-top: 100px;
+        }
+        #info-left{
+          margin-right: 5%;
+          border: 1px solid grey;
+          border-radius: 10px;
+        }
+        #info-left >table{
+            /* border: 1px solid grey; */
+            width: 100%;
+        }
+        #info-left >table>tbody tr{
+            height: 29.5px;
+        }
+        #info-left >table>tbody tr td{
+            /* border: 1px solid grey; */
+        }
+           .tr1 {
+            background-color: white;
+        }
+       .mation{
+        width: 95%;
+        height: 50px;
+        margin-left: 5%;
        }
-       .amn img{
-        height: 60px;
-        width:100%;
-        border-radius: 30px;
+       #info-right{
+        text-align: left;
        }
-       .v1 img{
-        height: 250px;
-        width: 250;
-        border-radius: 125px;
+       #info-right > div{
+        display: flex;
+        height: 50%;
        }
+       #info-right > div:nth-child(1){
+        border-bottom: 1px solid grey;
+       }
+         #info-right > div >div{
+            width: 50%;
+            height: 100%;
+         }
+         #info-right> div > div:nth-child(1){
+            border-right: 1px solid gray;
+         }
+         #info-right h1{
+            font-size: 48px;
+            font-weight: 800;
+            margin-left: 40px;
+         }
+         #info-right p{
+            color: rgb(9, 140, 192);
+            margin-left: 40px;
+         }
+          
     </style>
 </head>
 
@@ -211,7 +339,9 @@
                     <div class="r1">
                         <h2>i'm available for freelancing work!</h2>
                     </div>
-                    <div class="r2"><h4>let,s begin</h4></div>
+                    <div class="r2">
+                        <h4>let,s begin</h4>
+                    </div>
                 </div>
                 <div id="my-info-right">
                     <div class="v1">
@@ -220,8 +350,72 @@
                 </div>
             </div>
         </div>
-        <div></div>
-        <div></div>
+        <div id="rule">
+            <div id="rule-left">
+                <img src="./img w.jpg" alt="img">
+            </div>
+            <div id="rule-right">
+                <div class="s1">
+                    <h2>MY STORY</h2>
+                    <DIV class="v3"><img src="./amaan img.jpg" alt="img"></DIV>
+                </div>
+                <div class="v2">
+                    <h1>ABOUT</h1>
+                    <p>This is one-page HTML portfolio is provide by <a>tamplatemo</a> this layout is based on bootstrap
+                        v5.1.3 CSS and is labiries image creadite go to img used in this page</p>
+                </div>
+            </div>
+        </div>
+        <div id="info">
+           <div id="info-left">
+            <div class="mation">
+                <h1>Information</h1>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="color:rgb(7, 151, 207)">Name</td>
+                        <td>Rahmatullah</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td style="color:rgb(7, 151, 207)">birthdate</td>
+                        <td>13 apirl</td>
+                    </tr>
+                    <tr>
+                        <td style="color:rgb(7, 151, 207)">email</td>
+                        <td>rmd831219@gmail.com</td>
+                    </tr>
+                    <tr class="tr1">
+                        <td style="color:rgb(7, 151, 207)"> number</td>
+                        <td>8292596970</td>
+                    </tr>
+                </tbody>
+            </table>
+           </div>
+           <div id="info-right">
+            <div>
+                <div>
+                    <h1>20+</h1>
+                    <p>years of exp..</p>
+                </div>
+                <div>
+                    <h1>245</h1>
+                    <p>happy costmer</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h1>640</h1>
+                    <p>project finised</p>
+                </div>
+                <div>
+                    <h1>72+</h1>
+                    <p>digital awards</p>
+                </div>
+            </div>
+           </div>
+
+        </div>
         <div></div>
         <div></div>
         <div></div>
