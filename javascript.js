@@ -13,5 +13,6 @@
 // var f= 10
 // var s= 10
 // console.log(f == s)
-console.log(2!=2)
-console.log (2!=3)
+// var avi =90
+// console.log(avi >80)
+console.log( "amaan@gmail.com" != "amaan@gmail.com")
